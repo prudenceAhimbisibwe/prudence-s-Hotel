@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/about.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./About_files/style.css">
+    <title>About</title>
+</head>
+<body>
+    <div class="nav">
+        <nav>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/about.html">About</a></li>
+                <li><a href="http://127.0.0.1:5500/services">Services</a></li>
+                <li> <a href="http://127.0.0.1:5500/order">Order</a></li>
+                <li><a href="http://127.0.0.1:5500/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <h2>About</h2>
+    <div class="about">
+    <p>It was established in 2019 in Kampala Uganda with the purpose of  providing best services to people <br> at affordable prices.It offers accomodation,leisure activities,delicious foods,drinks and parties.It offers <br> 10% discount on weekends only on foods and drinks.It mainds about it's esteemed customers through quick <br> delivery of services and customer care. It's goal is to be the leading in Uganda interms of all services. </p>
+     </div>
+     <div class="image">
+         <img src="./About_files/wed.jpg">
+         <p>wedding decorations</p>
+     </div>
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
