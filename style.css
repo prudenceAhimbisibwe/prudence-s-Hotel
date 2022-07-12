@@ -1,5 +1,4 @@
 ul{
-    /* text-align: right; */
     list-style: none;
     margin-left: 70%;
     display: flex;
@@ -241,8 +240,6 @@ body h2{
 .cake{
     display: flex;
     text-align: center;
-    /* padding: 20px;
-    margin: 20px; */
     margin-left: 10%;
 }
 .cake1{
