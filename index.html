@@ -6,42 +6,264 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>prudence's Hotel</title>
+      
+    <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css"
+rel="stylesheet"
+/>
 </head>
 <body>
-    <div class="nav">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="service.html">Services</a></li>
-                <li> <a href="order.html">Order</a></li>
-                <li><a href="contact.html">Contact</a></li>
+  <header>
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #9dc8a7!important";>
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarExample01"
+            aria-controls="navbarExample01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarExample01">
+            <div class="piza">
+              <p style="font-size: 21px; color: white; font-weight: bold;">Prudence Hotel</p>
+            </li>
+          </div>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+             
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="#" style="color: white; font-size: 20px;">Home</a>
+              </li>
+              <li class="nav-item active" >
+                <a class="nav-link" aria-current="page" href="#about"  style="color: white; font-size: 20px;">About</a>
+             
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#service"  style="color: white; font-size: 20px;">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact"  style="color: white; font-size: 20px;">Contacts</a>
+              </li>
             </ul>
-        </nav>
-    </div>
-    <h1>PRUDENCE'S HOTEL</h1>
-    <p1>WELCOME TO THE MOST BEAUTIFUL HOTEL IN UGANDA</p1>
-    <div class="img">
-        <img src="/images/goodhouse.jpeg" width="50%" height="30%"> 
-
-    </div>
-    <footer>
-        <div class="details">
-            <div class="hi">
-                <h3>location</h3>
-                <p>216,kampala Rd,</p>
-                <p>Kampala, Uganda</p>
-            </div>
-            <div class="hello">
-                <h3>contact</h3>
-                <p class="footerP"> Prudence'shotel@gmail.com</p>
-               <li class="socialMedias"> <img class="facebook" src="/images/fb.png"/></li>
-               <li class="socialMedias"> <img class="twitter" src="/images/tw.png"/></li>
-               <li class="socialMedias"> <img class="whatsapp" src="/images/wh.png"/></li>
-            </div>
-
+          </div>
         </div>
-    </footer>
+      </nav>
+      <!-- Navbar -->
+      <!-- <background> -->
+        <div
+          id="intro-example"
+          class="p-5 text-center bg-image"
+          style="background-image: url(/bed3.jpeg); height: 680px; background-attachment: fixed;">
+        
+        <div class="mask" style="opacity: 0.9;">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-white" >
+              <h1 class="mb-3" style="font-size: 120px; color: white;"><span>Prudence Hotel</span></h1>
+              <h5 class="mb-4">We offer the best Services in Kampala!! </h5>
+              <a
+                class="btn btn-outline-light btn-lg m-2"
+                href="#order"
+                role="button" style="background-color: #b6cecb; color: black; font-size: 18px;border: none; border-radius: 15px; border-bottom-right-radius: 0;"
+                rel="nofollow"
+                target="_blank"
+              >ORDER  NOW!</a>
+            </div>
+          </div>
+        </div>
+        </div>
+  </header>
+    <!-- <end of background> -->
+       <!-- about section -->
+       <div class="about" id="about">
+        <h2 style="color: #28a745 ;">About Us</h2>
+        <div class="offer">
+        <img src="/best hotel.gif" height="400px" width="400px">
+        <p><span style="font-size: 20px; font-weight: bold;">Who are we?</span> <br> Prudence Hotel is a palace that offers quality <br> services interms of accommodation,<br> tasty foods in Uganda.<br>We do free delivery of food around Kampala city <br> and a fee on delivery outside the town.<br>We offer varriety of foods prepared by our proffesional<br> chefs.We offer booking of accommodation <br>for both parties and resting.</p>
+      </div>
+    </div>
+  <!-- end about section -->
+
+   <!-- services -->
+   <div class="service" id="service">
+    <h2 style="color: #28a745;">Our Services</h2>
+    <h3 style="color: #9dc8a7;">Accommodation</h3>
+    <div class="vart">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="/master.jpeg" class="card-img-top" alt="Skyscrapers"/>
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center;">VIP Room <br>1,000,000 per day</h5>
+            </div>
+        
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/images/bed5jpeg" class="card-img-top" alt="" height="142px"/>
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center;">self contained room <br>Shs 500,000 per day</h5> 
+          </div>
+         
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="/bed3.jpeg" class="card-img-top" alt="" height="142px"/>
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center;">self contained room <br>Shs 400,000 per day</h5>
+         
+          </div>
+        
+        </div>
+      </div>
+    </div>
+</div>
+<div class="vart-1">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="/images/bed2.jpeg" class="card-img-top" alt="Skyscrapers"/>
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center;">self contained room <br>Shs 300,per day</h5>
+             
+            </div>
+          
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/bed6.jpeg" class="card-img-top" alt="" height="168px"/>
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center;">Single Room <br>Shs 250,000 per day</h5>
+              
+            </div>
+           
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/images/bed7.jpeg" class="card-img-top" alt="" height="168px"/>
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center;">Single Room <br>Shs 200,000 per day</h5>
+            </div>
+      
+        </div>
+      </div>
+    </div>
+  
+  </div>
+  <div class="variet">
+  <div class="var">
+  <h3 style="color: #9dc8a7;">Our Dishes</h3>
+  <div class="vart-3">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="/grilled chicken.jpeg" class="card-img-top" alt="Skyscrapers"/>
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center;">Grilled Chicken</h5>
+          </div>
+      
+      </div>
+    </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="/images/crispy chicken.jpeg" class="card-img-top" alt="" height="142px"/>
+        <div class="card-body">
+          <h5 class="card-title" style="text-align: center;">Chicken pizza</h5>
+          
+        </div>
+       
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="/beef pizza.jpeg" class="card-img-top" alt="" height="142px"/>
+        <div class="card-body">
+          <h5 class="card-title" style="text-align: center;">Beef pizza</h5>
+       
+        </div>
+      
+      </div>
+    </div>
+  </div>
+  <div class="vart-1">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="/sandwich.jpeg" class="card-img-top" alt="Skyscrapers"/>
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center;">Sandwich Recipe</h5>
+             
+            </div>
+          
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/images/crispy chicken.jpeg" class="card-img-top" alt="" height="168px"/>
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center;">crispy chicken</h5>
+              
+            </div>
+           
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/images/dellived chicken.jpeg" class="card-img-top" alt="" height="168px"/>
+            <div class="card-body">
+              <h5 class="card-title" style="text-align: center;">Dellived Chicken</h5>
+            </div>
+      
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<!-- end of service section -->
+     <!-- contact session -->
+     <div class="contact" id="contact">
+     <div class="con">
+      <h2 style="color: #28a745">Contact Us</h2>
+      <div class="loc">
+        <div class="prude">
+           <h3>Location</h3>
+           <p>Prudence Hotel</p>
+           <p>Ndenje Road | Kampala</p>
+           <p>50500,Kampala</p>
+        </div>
+        <div class="cust">
+           <h3>Customer Care</h3>
+           <p>Email: prudeahimbisibwe@gmail.com</p>
+           <p>Tell: 0006709700 </p>
+           <p>phone: +256784017930</p>
+        </div>
+      </div>
+      <div class="last">
+         <p>© 2022 | Prudence Hotel:Designed by Ahimbisibwe Prudence</p>
+      </div> 
+     </div>
+  
+  </div>
+  <!-- end contact section -->
     
 </body>
 </html>
